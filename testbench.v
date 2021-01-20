@@ -5,6 +5,7 @@ wire Q;
 
 localparam CLK_PERIOD=20;
 
+// Note: This testbench is designed for the clk to start on the falling edge
 always @*
 begin
    clk <= 0;  # (CLK_PERIOD/2);
