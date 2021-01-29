@@ -291,36 +291,12 @@ refer to the applicable agreement for further details.
 	(pt 528 464)
 )
 (connector
-	(pt 944 304)
-	(pt 944 496)
-)
-(connector
-	(pt 944 496)
-	(pt 624 496)
-)
-(connector
-	(pt 624 496)
-	(pt 624 392)
-)
-(connector
-	(pt 624 392)
-	(pt 648 392)
-)
-(connector
 	(pt 368 312)
 	(pt 416 312)
 )
 (connector
 	(pt 416 312)
 	(pt 560 312)
-)
-(connector
-	(pt 928 304)
-	(pt 944 304)
-)
-(connector
-	(pt 944 304)
-	(pt 952 304)
 )
 (connector
 	(pt 560 256)
@@ -390,6 +366,31 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 648 376)
 	(pt 600 376)
+)
+(connector
+	(pt 944 304)
+	(pt 944 496)
+)
+(connector
+	(text "Q" (rect 634 480 642 497)(font "Intel Clear" ))
+	(pt 944 496)
+	(pt 624 496)
+)
+(connector
+	(pt 624 496)
+	(pt 624 392)
+)
+(connector
+	(pt 624 392)
+	(pt 648 392)
+)
+(connector
+	(pt 928 304)
+	(pt 944 304)
+)
+(connector
+	(pt 944 304)
+	(pt 952 304)
 )
 (junction (pt 416 312))
 (junction (pt 944 304))
