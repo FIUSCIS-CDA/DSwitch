@@ -5,7 +5,6 @@ wire Q;
 
 localparam CLK_PERIOD=20;
 
-// Note: This testbench is designed for the clk to start on the falling edge
 always @*
 begin
    clk <= 0;  # (CLK_PERIOD/2);
@@ -15,7 +14,7 @@ end
 DSwitch myRegister(reset, clk, D, Q);
 
 initial begin
-reset=1;  #CLK_PERIOD;
+reset=1;  #(CLK_PERIOD/2);
 reset=0;D=1; #(CLK_PERIOD/4);
 if (Q !== 0) begin
    $display("Error: Register changed on falling edge"); $stop;
